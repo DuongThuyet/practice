@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ui</string>
+    <string name="text_hot_key" translatable="false">Từ khóa hot</string>
+</resources>

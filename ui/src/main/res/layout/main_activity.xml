@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:textColor="#000"
+            android:id="@+id/tvTitle"
+            android:padding="@dimen/padding_default"
+            android:text="@string/text_hot_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:background="#33DADADA"
+            android:layout_below="@+id/tvTitle"
+            android:padding="@dimen/padding_default"
+            android:id="@+id/rvPopularKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <ProgressBar
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:id="@+id/pgBar"
+            android:layout_width="36dp"
+            android:layout_height="36dp"/>
+
+
+</RelativeLayout>
