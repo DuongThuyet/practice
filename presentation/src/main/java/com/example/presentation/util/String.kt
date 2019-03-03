@@ -17,7 +17,7 @@ fun String.formatToTikiTemplate(): String {
             else -> {
                 val customArrayTemp = mutableListOf<String>()
                 customArrayTemp.addAll(arrayTemp)
-                customArrayTemp.add(Random().nextInt(((tempSize - 2) - 1 + 1)) + 1, "\n")
+                customArrayTemp.add(Random().nextInt((tempSize - 2)) + 1, "\n")
                 customArrayTemp.forEach {
                     output.append("$it ")
                 }

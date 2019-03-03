@@ -5,7 +5,7 @@ import com.example.domain.usecase.base.SingleUseCase
 import com.example.domain.usecase.base.UseCaseExecution
 import io.reactivex.Single
 
-class GetPopularKeyWordsUseCase(
+ class GetPopularKeyWordsUseCase(
     private val appRepository: AppRepository,
     useCaseExecution: UseCaseExecution
 ) : SingleUseCase<List<String?>?, Void?>(useCaseExecution) {

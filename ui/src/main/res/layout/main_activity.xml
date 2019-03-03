@@ -24,8 +24,9 @@
             android:layout_height="wrap_content"/>
 
     <ProgressBar
+            android:layout_below="@id/tvTitle"
             android:visibility="gone"
-            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
             android:id="@+id/pgBar"
             android:layout_width="36dp"
             android:layout_height="36dp"/>
